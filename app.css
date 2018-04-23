@@ -301,4 +301,5 @@ hr {
   margin-bottom: 1rem; }
 
 .page.page-one-column .wcorg-organizer-description p {
-  font-size: 14px; }
+  font-size: 14px;
+  line-height: 1.25rem; }
