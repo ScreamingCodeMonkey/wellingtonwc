@@ -295,3 +295,10 @@ hr {
             box-shadow: none; }
   .page.page-one-column .sponsorButton:hover {
     background-color: #ea9100 !important; }
+
+.page.page-one-column .wcorg-organizer {
+  clear: both;
+  margin-bottom: 1rem; }
+
+.page.page-one-column .wcorg-organizer-description p {
+  font-size: 14px; }
