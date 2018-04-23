@@ -203,7 +203,7 @@ hr {
   font-size: 3em !important;
   position: relative;
   padding-bottom: 16px;
-  color: #0C9DBC; }
+  color: #0C9DBC !important; }
   .page.page-one-column .entry-title::before {
     content: '';
     position: absolute;
