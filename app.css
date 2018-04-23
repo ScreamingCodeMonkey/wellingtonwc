@@ -196,15 +196,15 @@ hr {
 .Media-object {
   float: left; }
 
-.page.page-one-column.page-slug-call-for-sponsors .entry-header {
+.entry-header {
   margin-bottom: 1em; }
 
-.page.page-one-column.page-slug-call-for-sponsors .entry-title {
+.entry-title {
   font-size: 3em !important;
   position: relative;
   padding-bottom: 16px;
   color: #0C9DBC; }
-  .page.page-one-column.page-slug-call-for-sponsors .entry-title::before {
+  .entry-title::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -213,31 +213,31 @@ hr {
     bottom: 0;
     left: 0; }
 
-.page.page-one-column.page-slug-call-for-sponsors .entry-content p {
+.entry-content p {
   font-size: 1.25rem;
   line-height: 1.85rem;
   margin-bottom: .25rem; }
 
-.page.page-one-column.page-slug-call-for-sponsors .entry-content a {
+.entry-content a {
   color: #0C9DBC; }
 
-.page.page-one-column.page-slug-call-for-sponsors .entry-content .wp-block-table {
+.entry-content .wp-block-table {
   margin-top: 2rem; }
-  .page.page-one-column.page-slug-call-for-sponsors .entry-content .wp-block-table tr:first-child td, .page.page-one-column.page-slug-call-for-sponsors .entry-content .wp-block-table tr:first-child th {
+  .entry-content .wp-block-table tr:first-child td, .entry-content .wp-block-table tr:first-child th {
     background-color: #333;
     color: #fff;
     text-align: center; }
-  .page.page-one-column.page-slug-call-for-sponsors .entry-content .wp-block-table tr:nth-child(even):not(:first-child) td {
+  .entry-content .wp-block-table tr:nth-child(even):not(:first-child) td {
     background-color: #ddd; }
 
-.page.page-one-column.page-slug-call-for-sponsors .entry-content h2, .page.page-one-column.page-slug-call-for-sponsors .entry-content .sponsorType-description h3, .page.page-one-column.page-slug-call-for-sponsors .entry-content .comSponsors h4 {
+.entry-content h2, .entry-content .sponsorType-description h3, .entry-content .comSponsors h4 {
   font-size: 1.5rem;
   line-height: 1.8rem;
   color: #0C9DBC;
   position: relative;
   display: inline-block;
   padding-bottom: 8px; }
-  .page.page-one-column.page-slug-call-for-sponsors .entry-content h2::before, .page.page-one-column.page-slug-call-for-sponsors .entry-content .sponsorType-description h3::before, .page.page-one-column.page-slug-call-for-sponsors .entry-content .comSponsors h4::before {
+  .entry-content h2::before, .entry-content .sponsorType-description h3::before, .entry-content .comSponsors h4::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -246,52 +246,52 @@ hr {
     bottom: 0;
     left: 0; }
 
-.page.page-one-column.page-slug-call-for-sponsors .entry-content .sponsorType-description h3 {
+.entry-content .sponsorType-description h3 {
   font-size: 1.25rem; }
 
-.page.page-one-column.page-slug-call-for-sponsors .entry-content .comSponsors h4 {
+.entry-content .comSponsors h4 {
   font-size: 1.15rem; }
 
-.page.page-one-column.page-slug-call-for-sponsors .sponsorType {
+.sponsorType {
   margin-bottom: 2rem; }
-  .page.page-one-column.page-slug-call-for-sponsors .sponsorType .small {
+  .sponsorType .small {
     font-size: 16px;
     line-height: 1.5; }
   @media screen and (min-width: 782px) {
-    .page.page-one-column.page-slug-call-for-sponsors .sponsorType {
+    .sponsorType {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; }
-      .page.page-one-column.page-slug-call-for-sponsors .sponsorType > h3 {
+      .sponsorType > h3 {
         width: 30%;
         -ms-flex-item-align: center;
             align-self: center; }
-      .page.page-one-column.page-slug-call-for-sponsors .sponsorType .sponsorType-description {
+      .sponsorType .sponsorType-description {
         margin-left: auto;
         width: 60%; } }
 
-.page.page-one-column.page-slug-call-for-sponsors .sponsorKnockout {
+.sponsorKnockout {
   background: #0C9DBC;
   color: #ffffff;
   padding: 1rem;
   text-align: center;
   margin-bottom: 1.5rem; }
 
-.page.page-one-column.page-slug-call-for-sponsors .comSponsors > ul {
+.comSponsors > ul {
   margin-top: 1rem;
   list-style: none; }
-  .page.page-one-column.page-slug-call-for-sponsors .comSponsors > ul > li {
+  .comSponsors > ul > li {
     margin-bottom: 1rem; }
 
-.page.page-one-column.page-slug-call-for-sponsors .sponsorButton {
+.sponsorButton {
   -webkit-transition: background .2s ease-out;
   transition: background .2s ease-out;
   font-size: 14px; }
-  .page.page-one-column.page-slug-call-for-sponsors .sponsorButton, .page.page-one-column.page-slug-call-for-sponsors .sponsorButton:hover, .page.page-one-column.page-slug-call-for-sponsors .sponsorButton:focus, .page.page-one-column.page-slug-call-for-sponsors .sponsorButton:visited {
+  .sponsorButton, .sponsorButton:hover, .sponsorButton:focus, .sponsorButton:visited {
     background-color: #ffa004;
     color: #fff !important;
     text-transform: uppercase;
     -webkit-box-shadow: none;
             box-shadow: none; }
-  .page.page-one-column.page-slug-call-for-sponsors .sponsorButton:hover {
+  .sponsorButton:hover {
     background-color: #ea9100 !important; }
