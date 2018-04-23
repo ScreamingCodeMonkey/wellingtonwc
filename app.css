@@ -196,15 +196,15 @@ hr {
 .Media-object {
   float: left; }
 
-.entry-header {
+.page.page-one-column .entry-header {
   margin-bottom: 1em; }
 
-.entry-title {
+.page.page-one-column .entry-title {
   font-size: 3em !important;
   position: relative;
   padding-bottom: 16px;
   color: #0C9DBC; }
-  .entry-title::before {
+  .page.page-one-column .entry-title::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -213,31 +213,31 @@ hr {
     bottom: 0;
     left: 0; }
 
-.entry-content p {
+.page.page-one-column .entry-content p {
   font-size: 1.25rem;
   line-height: 1.85rem;
   margin-bottom: .25rem; }
 
-.entry-content a {
+.page.page-one-column .entry-content a {
   color: #0C9DBC; }
 
-.entry-content .wp-block-table {
+.page.page-one-column .entry-content .wp-block-table {
   margin-top: 2rem; }
-  .entry-content .wp-block-table tr:first-child td, .entry-content .wp-block-table tr:first-child th {
+  .page.page-one-column .entry-content .wp-block-table tr:first-child td, .page.page-one-column .entry-content .wp-block-table tr:first-child th {
     background-color: #333;
     color: #fff;
     text-align: center; }
-  .entry-content .wp-block-table tr:nth-child(even):not(:first-child) td {
+  .page.page-one-column .entry-content .wp-block-table tr:nth-child(even):not(:first-child) td {
     background-color: #ddd; }
 
-.entry-content h2, .entry-content .sponsorType-description h3, .entry-content .comSponsors h4 {
+.page.page-one-column .entry-content h2, .page.page-one-column .entry-content .sponsorType-description h3, .page.page-one-column .entry-content .comSponsors h4 {
   font-size: 1.5rem;
   line-height: 1.8rem;
   color: #0C9DBC;
   position: relative;
   display: inline-block;
   padding-bottom: 8px; }
-  .entry-content h2::before, .entry-content .sponsorType-description h3::before, .entry-content .comSponsors h4::before {
+  .page.page-one-column .entry-content h2::before, .page.page-one-column .entry-content .sponsorType-description h3::before, .page.page-one-column .entry-content .comSponsors h4::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -246,52 +246,52 @@ hr {
     bottom: 0;
     left: 0; }
 
-.entry-content .sponsorType-description h3 {
+.page.page-one-column .entry-content .sponsorType-description h3 {
   font-size: 1.25rem; }
 
-.entry-content .comSponsors h4 {
+.page.page-one-column .entry-content .comSponsors h4 {
   font-size: 1.15rem; }
 
-.sponsorType {
+.page.page-one-column .sponsorType {
   margin-bottom: 2rem; }
-  .sponsorType .small {
+  .page.page-one-column .sponsorType .small {
     font-size: 16px;
     line-height: 1.5; }
   @media screen and (min-width: 782px) {
-    .sponsorType {
+    .page.page-one-column .sponsorType {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; }
-      .sponsorType > h3 {
+      .page.page-one-column .sponsorType > h3 {
         width: 30%;
         -ms-flex-item-align: center;
             align-self: center; }
-      .sponsorType .sponsorType-description {
+      .page.page-one-column .sponsorType .sponsorType-description {
         margin-left: auto;
         width: 60%; } }
 
-.sponsorKnockout {
+.page.page-one-column .sponsorKnockout {
   background: #0C9DBC;
   color: #ffffff;
   padding: 1rem;
   text-align: center;
   margin-bottom: 1.5rem; }
 
-.comSponsors > ul {
+.page.page-one-column .comSponsors > ul {
   margin-top: 1rem;
   list-style: none; }
-  .comSponsors > ul > li {
+  .page.page-one-column .comSponsors > ul > li {
     margin-bottom: 1rem; }
 
-.sponsorButton {
+.page.page-one-column .sponsorButton {
   -webkit-transition: background .2s ease-out;
   transition: background .2s ease-out;
   font-size: 14px; }
-  .sponsorButton, .sponsorButton:hover, .sponsorButton:focus, .sponsorButton:visited {
+  .page.page-one-column .sponsorButton, .page.page-one-column .sponsorButton:hover, .page.page-one-column .sponsorButton:focus, .page.page-one-column .sponsorButton:visited {
     background-color: #ffa004;
     color: #fff !important;
     text-transform: uppercase;
     -webkit-box-shadow: none;
             box-shadow: none; }
-  .sponsorButton:hover {
+  .page.page-one-column .sponsorButton:hover {
     background-color: #ea9100 !important; }
