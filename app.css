@@ -401,47 +401,6 @@ hr {
       -ms-flex-align: center;
           align-items: center; }
 
-.page.page-one-column .site-info {
-  display: none; }
-
-.page.page-one-column .heart {
-  fill: red;
-  position: relative;
-  margin: 0 3px;
-  top: 0;
-  width: 10px;
-  -webkit-animation: pulse 1s ease infinite;
-  animation: pulse 1s ease infinite; }
-
-@-webkit-keyframes pulse {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1); }
-  50% {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3); }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1); } }
-
-@keyframes pulse {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1); }
-  50% {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3); }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1); } }
-
-.page.page-one-column .footnote {
-  margin-top: 2rem; }
-  .page.page-one-column .footnote p {
-    font-style: italic;
-    text-align: right;
-    font-size: .8rem; }
-
 .main-navigation ul,
 .navigation-top {
   background-color: #0eb1d4 !important; }
@@ -475,3 +434,48 @@ hr {
   .site-footer a:hover,
   .site-footer a:focus {
     color: #fff !important; }
+
+.site-info {
+  display: none; }
+
+.footnote .emoji {
+  fill: red;
+  position: relative;
+  margin: 0 3px;
+  top: 0;
+  width: 10px;
+  -webkit-animation: pulse 1s ease infinite;
+  animation: pulse 1s ease infinite; }
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  50% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  50% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+.site-footer wrap,
+.site-footer .widget-area {
+  padding-bottom: 0; }
+
+.footnote {
+  margin-top: 3rem; }
+  .footnote p {
+    font-style: italic;
+    text-align: right;
+    font-size: .8rem; }
