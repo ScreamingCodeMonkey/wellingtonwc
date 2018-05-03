@@ -346,10 +346,11 @@ hr {
 
 .page.page-one-column .wcorg-organizer,
 .page.page-one-column .wcorg-speaker {
-  padding: 1rem; }
+  padding: 1rem;
+  margin: 3rem 0; }
   .page.page-one-column .wcorg-organizer h2,
   .page.page-one-column .wcorg-speaker h2 {
-    margin-bottom: 0;
+    margin: 0;
     text-align: center;
     width: 100%;
     text-shadow:  1px 1px rgba(230, 230, 230, 0.5) , 2px 2px rgba(236, 236, 236, 0.55) , 3px 3px rgba(240, 240, 240, 0.6) , 4px 4px rgba(244, 244, 244, 0.65) , 5px 5px rgba(247, 247, 247, 0.7) , 6px 6px rgba(249, 249, 249, 0.75) , 7px 7px rgba(250, 250, 250, 0.8) , 8px 8px rgba(252, 252, 252, 0.85) , 9px 9px rgba(253, 253, 253, 0.9) , 10px 10px rgba(254, 254, 254, 0.95); }
