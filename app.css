@@ -473,6 +473,9 @@ hr {
 .site-footer .widget-area {
   padding-bottom: 0; }
 
+.site-footer .widget_custom_html {
+  padding-bottom: 0; }
+
 .footnote {
   margin-top: 3rem; }
   .footnote p {
