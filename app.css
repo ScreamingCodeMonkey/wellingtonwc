@@ -384,7 +384,10 @@ hr {
 .page.page-one-column #tix-attendees .tix-attendee-list li {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
   @media screen and (max-width: 782px) {
     .page.page-one-column #tix-attendees .tix-attendee-list li {
       width: 100%; } }
